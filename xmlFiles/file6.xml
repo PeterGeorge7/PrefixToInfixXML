@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- missing operand -->
+<expr type="binary">
+    <operator value="%">
+        <operand>
+            <expr type="binary">
+                <operator value="*">
+                    <operand>
+                        <expr type="unary">
+                            <operator value="-">
+                                <operand>
+                                    <expr type="atom">
+                                        <atom value="3"/>
+                                    </expr>
+                                </operand>
+                            </operator>
+                        </expr>
+                    </operand>
+                    <operand>
+                        <expr type="binary">
+                            <operator value="+">
+                                <operand>
+                                    <expr type="atom">
+                                        <atom value="5"/>
+                                    </expr>
+                                </operand>
+                                <operand>
+                                    <expr type="binary">
+                                        <operator value="-">
+                                            <operand>
+                                                <expr type="atom">
+                                                    <atom value="7"/>
+                                                </expr>
+                                            </operand>
+                                            <operand>
+                                                <expr type="unary">
+                                                    <operator value="%">
+                                                        <operand>
+                                                            <expr type="atom">
+                                                                <atom value="9"/>
+                                                            </expr>
+                                                        </operand>
+                                                    </operator>
+                                                </expr>
+                                            </operand>
+                                        </operator>
+                                    </expr>
+                                </operand>
+                            </operator>
+                        </expr>
+                        <expr type="atom">
+                            <atom value="10"/>
+                        </expr>
+                    </operand>
+                </operator>
+            </expr>
+        </operand>
+        <operand>
+            <expr type="binary">
+                <operator value="*">
+                    <operand>
+                        <expr type="atom">
+                            <atom value="2"/>
+                        </expr>
+                    </operand>
+                    <operand>
+                        <expr type="atom">
+                            <atom value="8"/>
+                        </expr>
+                    </operand>
+                </operator>
+            </expr>
+        </operand>
+    </operator>
+</expr>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- result : -93 -->
+<expr type="binary">
+    <operator value="-">
+        <expr type="atom">
+            <atom value="2"/>
+        </expr>
+        <expr type="binary">
+            <operator value="*">
+                <operand>
+                    <expr type="binary">
+                        <operator value="+">
+                            <operand>
+                                <expr type="atom">
+                                    <atom value="7"/>
+                                </expr>
+                            </operand>
+                            <operand>
+                                <expr type="binary">
+                                    <operator value="*">
+                                        <operand>
+                                            <expr type="atom">
+                                                <atom value="4"/>
+                                            </expr>
+                                        </operand>
+                                        <operand>
+                                            <expr type="atom">
+                                                <atom value="3"/>
+                                            </expr>
+                                        </operand>
+                                    </operator>
+                                </expr>
+                            </operand>
+                        </operator>
+                    </expr>
+                </operand>
+                <operand>
+                    <expr type="atom">
+                        <atom value="5"/>
+                    </expr>
+                </operand>
+            </operator>
+        </expr>
+    </operator>
+</expr>
